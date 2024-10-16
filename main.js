@@ -8,20 +8,27 @@ choix = prompt("vous avez deux options :")
 choix = prompt(" 1 Prendre le paquet et le ramener à l’intérieur.")
 choix = prompt(" 2 Ignorer le paquet et refermer la porte.")
 choix = prompt("")
+while (choix !== '1' && choix !== '2') {
+    choix=prompt("choix invalide ! veuillez choisir 1 ou 2 ")
+}
 if (choix == '1') {
     console.log("Vous ramenez le paquet à l’intérieur. Il est léger mais semble bouger légèrement. Une odeur étrange en émane, et un frisson vous parcourt l’échine. En l’ouvrant, vous trouvez une simple note : “On te surveille”.");
     prompt("Maintenant, vous avez deux choix :")
     choix = prompt(" 3 Chercher des indices dans le paquet.")
     choix = prompt(" 4 brûler le paquet immédiatement.")
     choix = prompt("")
-
+    while (choix !== '3' && choix !== '4') {
+        choix=prompt("choix invalide ! veuillez choisir 3 ou 4 ")
+    }
 } if (choix == '3') {
     console.log("Vous fouillez attentivement le paquet et trouvez une clé ancienne attachée à un morceau de papier avec une adresse. Vous reconnaissez cette adresse : c’est la maison abandonnée de la ville voisine. Votre curiosité vous pousse à vouloir y aller, mais une voix dans votre tête vous dit que c’est une mauvaise idée.");
     choix = prompt("Vous avez deux options :")
     choix = prompt(" 5 Aller à l’adresse indiquée.")
     choix = prompt(" 6 Si vous choisissez d’aller à l’adresse ")
     choix = prompt("")
-
+    while (choix !== '5' && choix !== '6') {
+        choix=prompt("choix invalide ! veuillez choisir 5 ou 6 ")
+    }
     if (choix == '5') {
         console.log("Vous vous dirigez vers la maison abandonnée. Dès votre arrivée, la porte se referme derrière vous, vous piégeant à l’intérieur. Le facteur apparaît dans l’ombre, son sourire macabre illuminé par la faible lumière de la lune. Vous avez suivi son piège, et maintenant, il est trop tard.");
     } else if (choix == '6') {
@@ -33,6 +40,9 @@ if (choix == '1') {
     choix = prompt(" 7 Fuir par la porte arrière.")
     choix = prompt(" 8 Rester et affronter le facteur. ")
     choix = prompt("")
+    while (choix !== '7' && choix !== '8') {
+        choix=prompt("choix invalide ! veuillez choisir '7' ou '8'")
+    }
     if (choix == '7') {
         console.log("Vous courez par la porte arrière, mais en regardant en arrière, vous voyez le facteur vous poursuivre. Peu importe où vous allez, il semble toujours savoir où vous êtes. Finalement, épuisé, vous réalisez que fuir est inutile. Vous ne pouvez pas échapper au facteur.");
     } else if (choix == '8') {
@@ -45,12 +55,18 @@ if (choix == '1') {
     choix=prompt("9 Ouvrir la porte pour affronter le facteur.")
     choix=prompt("10 Fuir par la fenêtre arrière.")
     choix = prompt("")
+    while (choix !== '9' && choix !== '10') {
+        choix=prompt("choix invalide ! veuillez choisir 9 ou 10 ")
+    }
     if (choix=='9') {
         console.log("Vous ouvrez la porte, prêt à affronter le facteur. Il vous tend une lettre, toujours souriant. Elle est adressée à vous, mais quelque chose vous dit que l’ouvrir serait une erreur.");
         prompt("Vous avez deux options :")
         choix=prompt(" 11 Accepter la lettre et l’ouvrir.")
         choix=prompt(" 12 Refuser et refermer la porte.")
         choix = prompt("")
+        while (choix !== '11' && choix !== '12') {
+            choix=prompt("choix invalide ! veuillez choisir 11 ou 12 ")
+        }
         if (choix=='11') {
             console.log("En ouvrant la lettre, un sentiment de terreur absolue vous envahit. Le texte à l’intérieur parle de votre mort imminente, prévue pour cette nuit. Le facteur éclate de rire, tandis que les lumières de votre maison clignotent… puis s’éteignent. Il est venu vous chercher.");
             
@@ -64,6 +80,9 @@ if (choix == '1') {
         choix=prompt(" 13 Courir vers la forêt voisine.")
         choix=prompt("14 Se cacher dans la grange derrière votre maison.")
         choix = prompt("")
+        while (choix !== '13' && choix !== '14') {
+            choix=prompt("choix invalide ! veuillez choisir 13 ou 14 ")
+        }
         if (choix=='13') {
             console.log("Vous courez dans les bois, mais le facteur est toujours derrière vous, ses pas de plus en plus proches. Vous trébuchez et tombez sur le sol humide de la forêt. Il se tient au-dessus de vous, prêt à vous emporter. La forêt ne vous a pas sauvé.");
             
