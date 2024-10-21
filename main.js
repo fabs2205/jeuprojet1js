@@ -1,6 +1,5 @@
 const prompt = require('prompt-sync')()
 
-
 let choix = prompt("Vous vivez dans une petite maison à la campagne. Ces derniers temps, vous recevez des lettres anonymes déposées chaque nuit par un facteur que vous n’avez jamais vu en journée. Ce soir, un mystérieux paquet est déposé devant votre porte. Vous devez maintenant choisir quoi faire, mais méfiez-vous, chaque décision pourrait vous rapprocher de la vérité… ou d’une fin tragique.")
 choix = prompt("Le paquet mystérieux")
 choix = prompt("Il est minuit passé. Vous entendez un véhicule s’arrêter devant chez vous. En ouvrant la porte, vous voyez un petit paquet noir posé sur votre paillasson. Le facteur, à moitié dissimulé par l’ombre, vous fixe du trottoir. Un sourire inquiétant s’étire sur ses lèvres.")
