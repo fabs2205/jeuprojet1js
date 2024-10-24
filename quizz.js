@@ -29,6 +29,7 @@ for (let i = 0; i < tab.length; i++) {
             console.log(tab[i].reponse[j]);
             
         }
+    
     reponses=prompt("Entrer une réponse :").toUpperCase();
    
     
